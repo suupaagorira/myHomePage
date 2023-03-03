@@ -1,0 +1,9 @@
+{
+  "extends": "@parcel/config-default",
+  "entries": {
+    "index": {
+      "ts": "./index.ts",
+      "scss": "./styles.scss"
+    }
+  }
+}

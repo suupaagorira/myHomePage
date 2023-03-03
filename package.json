@@ -1,0 +1,20 @@
+{
+    "name": "suupaagorirahomepage",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx parcel index.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.2.3"
+    },
+    "devDependencies": {
+        "parcel": "^2.8.3",
+        "parcel-bundler": "^1.12.5",
+        "sass": "^1.58.3",
+        "typescript": "^4.9.5"
+    }
+}

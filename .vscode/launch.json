@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "app",
+      "url": "http://localhost:1234",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "app start",
+      "postDebugTask": "app stop"
+    }
+  ]
+}
