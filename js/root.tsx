@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
+import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import TopNavbar from "./navbar";
@@ -20,4 +20,4 @@ function App() {
     );
 }
 
-render(<App />, document.getElementById("root"));
+createRoot(document.getElementById("root")!).render(<App />);
